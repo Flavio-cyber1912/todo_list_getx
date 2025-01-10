@@ -3,7 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'todo_page.dart';
 
-class LoginPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
@@ -56,7 +55,7 @@ class LoginPage extends StatelessWidget {
       ),
     );
   }
-}
+
 
 class RegistrationPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
