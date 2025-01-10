@@ -83,7 +83,6 @@ class LoginPage extends StatelessWidget {
   }
 }
 
-class RegistrationPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
@@ -130,4 +129,4 @@ class RegistrationPage extends StatelessWidget {
       ),
     );
   }
-}
+
